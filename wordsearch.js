@@ -5,7 +5,6 @@ const wordSearch = (letters, word) => {
     let isFound = false;
 
     for (l of horizontalJoin) {
-        console.log("l.includes(word):",l.includes(word));
         if (l.includes(word)) isFound = true;
     }
     
